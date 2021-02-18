@@ -2,7 +2,19 @@ import React from 'react'
 
 type Props = {
     text: string,
-    subText?: string
+    subText?: string,
+    moreText?: 'this is default value',
+    arrayOfSomething?: [],
+    arrayOfNames?: string[],
+    age?: number,
+    status?: 'married' | 'single',
+    person?: object,
+    personDetails?: {
+        name: string,
+        age: number
+    }
+
+
 }
 
 const Footer = ({text, subText}: Props) => (
